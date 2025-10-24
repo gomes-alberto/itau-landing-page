@@ -1,34 +1,49 @@
 export default function Header() {
     return (
-        <header className="max-w-5xl m-auto p-10 flex items-center justify-between">
-            {/* Logo */}
-            <div>
-                <a href="#" className="font-bold text-2xl text-amber-300">LOGO</a>
+        <header className="bg-amber-600 fixed w-full">
+
+            <div className="max-w-5xl m-auto p-4 flex items-center justify-between">
+                {/* Logo */}
+                <div className="bg-blue-600 p-2 rounded">
+                    <a href="#" className="font-medium text-white">itaú</a>
+                </div>
+
+                {/* menu de navegação */}
+                <nav>
+                    <ul className="flex items-center justify-center gap-4 cursor-pointer text-white">
+                        <li><a href="#" title="para voce" className="hover:text-gray-700 transition duraction-500 ease-in-out">Para você</a></li>
+                        <li><a href="#" title="para empresa" className="hover:text-gray-700 transition duraction-500 ease-in-out">Para empresa</a></li>
+                        <li><a href="#" title="servicos" className="hover:text-gray-700 transition duraction-500 ease-in-out">Serviços</a></li>
+                        <li><a href="#" title="ajuda" className="hover:text-gray-700 transition duraction-500 ease-in-out">Ajuda</a></li>
+                    </ul>
+                </nav>
+
+                {/* input da pesquisa */}
+                <div>
+                    <input title="pesquisa" type="search" placeholder="Pesquisar..." 
+                    className="
+                    px-2
+                    py-0
+                    border
+                    border-amber-500
+                    rounded
+                    text-white
+
+                    focus:outline-none
+                    focus:border-gray-50
+
+                    transition
+                    duraction-400
+                    ease-in-out
+                    "/>
+                </div>
+
+                {/* Botão de acessar conta */}
+                <div>
+                    <button className="bg-blue-600 px-6 py-2 rounded cursor-pointer text-white hover:bg-blue-700">Acessar conta</button>
+                </div>
             </div>
-
-            {/* menu de navegação */}
-            <nav>
-                <ul className="flex items-center justify-center gap-4 cursor-pointer">
-                    <li><a href="#" title="para voce"></a>Para você</li>
-                    <li><a href="#" title="para empresa"></a>Para empresa</li>
-                    <li><a href="#" title="servicos"></a>Serviços</li>
-                    <li><a href="#" title="ajuda"></a>Ajuda</li>
-                </ul>
-            </nav>
-
-            {/* input da pesquisa */}
-            <div>
-                <input title="pesquisa" type="text" placeholder="Buscar..." 
-                className="
-                text-black
-
-                "/>
-            </div>
-
-            {/* Botão de acessar conta */}
-            <div>
-                <button className="bg-amber-300 px-6 py-2 rounded-lg cursor-pointer text-white font-medium">Acessar conta</button>
-            </div>
+            
         </header>
     )
 }

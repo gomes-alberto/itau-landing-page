@@ -1,12 +1,14 @@
 import Image from "next/image";
 
 // Importando os Componentes
-import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Gerencia from "./components/Gerencia";
 
 export default function Home() {
   return (
     <div>
-      <Header></Header>
+      <Hero></Hero>
+      <Gerencia></Gerencia>
     </div>
   );
 }
