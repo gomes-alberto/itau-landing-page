@@ -1,10 +1,7 @@
-// import Responsividade from "./Responsividade"
-
 export default function Header() {
     return (
         <header className="bg-amber-600 fixed w-full">
             
-
             <div className="max-w-5xl m-auto p-4 flex items-center justify-between">
                 {/* Logo */}
                 <div className="bg-blue-600 p-2 rounded">
@@ -50,7 +47,6 @@ export default function Header() {
                 </div>
             </div>
             
-            {/* <Responsividade></Responsividade> */}
         </header>
     )
 }
