@@ -12,8 +12,8 @@ export default function Header() {
                 <nav className="hidden md:block">
                     <ul className="flex items-center justify-center gap-4 cursor-pointer text-white">
                         <li><a href="#" title="para voce" className="hover:text-gray-700 transition duraction-500 ease-in-out">Para você</a></li>
-                        <li><a href="#" title="para empresa" className="hover:text-gray-700 transition duraction-500 ease-in-out">Para empresa</a></li>
-                        <li><a href="#" title="servicos" className="hover:text-gray-700 transition duraction-500 ease-in-out">Serviços</a></li>
+                        <li><a href="#" title="para empresa" className="hover:text-gray-700 transition duraction-500 ease-in-out">Serviços</a></li>
+                        <li><a href="#" title="servicos" className="hover:text-gray-700 transition duraction-500 ease-in-out">Para empresa</a></li>
                         <li><a href="#" title="ajuda" className="hover:text-gray-700 transition duraction-500 ease-in-out">Ajuda</a></li>
                     </ul>
                 </nav>

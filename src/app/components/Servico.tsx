@@ -1,14 +1,14 @@
 import Image from "next/image"
-import gerenciaImage from "@/../public/phone.png"
+import servicoImage from "@/../public/phone.png"
 
-export default function Gerencia() {
+export default function Servico() {
     return (
         <section className="bg-gray-50">
             
             <div className="max-w-5xl m-auto px-4 py-10 block items-center justify-between gap-6 space-y-reverse
             md:flex">
                 <div className=" flex items-center justify-center">
-                    <Image src={gerenciaImage} alt="gerncia" className="w-1xl md:w-3xl lg:w-4xl " />
+                    <Image src={servicoImage} alt="gerncia" className="w-1xl md:w-3xl lg:w-4xl " />
                 </div>
 
                 {/* Dizees da gerencia */}
