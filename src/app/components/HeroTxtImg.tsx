@@ -5,7 +5,7 @@ export default function HeroTxtImg() {
     return (
         <section className="max-w-5xl m-auto block space-y-reverse items-center h-full px-4 pt-20
         md:flex md:gap-6 md:justify-between">
-            
+
             {/* Dizeres */}
             <div className="space-y-4 md:space-y-8 space-y-reverse ">
                 <h1 className="text-white text-3xl font-bold md:text-4xl lg:text-5xl">
@@ -19,7 +19,7 @@ export default function HeroTxtImg() {
 
                 {/* Botão de acessar conta */}
                 <div>
-                    <button className="mt-6 mb-3 bg-blue-600 px-6 py-2 rounded cursor-pointer text-white hover:bg-blue-700">Mais informações</button>
+                    <button className="mt-6 mb-3 bg-blue-600 px-6 py-2 rounded cursor-pointer text-white hover:bg-blue-700 lg:mt-0 md:mt-0">Mais informações</button>
                 </div>
             </div>
 
