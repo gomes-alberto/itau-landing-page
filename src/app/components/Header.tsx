@@ -1,6 +1,9 @@
+// import Responsividade from "./Responsividade"
+
 export default function Header() {
     return (
         <header className="bg-amber-600 fixed w-full">
+            
 
             <div className="max-w-5xl m-auto p-4 flex items-center justify-between">
                 {/* Logo */}
@@ -9,7 +12,7 @@ export default function Header() {
                 </div>
 
                 {/* menu de navegação */}
-                <nav>
+                <nav className="hidden md:block">
                     <ul className="flex items-center justify-center gap-4 cursor-pointer text-white">
                         <li><a href="#" title="para voce" className="hover:text-gray-700 transition duraction-500 ease-in-out">Para você</a></li>
                         <li><a href="#" title="para empresa" className="hover:text-gray-700 transition duraction-500 ease-in-out">Para empresa</a></li>
@@ -35,6 +38,9 @@ export default function Header() {
                     transition
                     duraction-400
                     ease-in-out
+
+                    hidden
+                    md:block
                     "/>
                 </div>
 
@@ -44,6 +50,7 @@ export default function Header() {
                 </div>
             </div>
             
+            {/* <Responsividade></Responsividade> */}
         </header>
     )
 }
