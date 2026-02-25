@@ -1,38 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Projeto Landing Page com Next.js + Tailwind CSS
 
-## Getting Started
+## 📌 Sobre o Projeto
 
-First, run the development server:
+Este projeto foi desenvolvido com o objetivo de colocar em prática os conhecimentos adquiridos durante um curso introdutório de **Next.js** e **Tailwind CSS**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Ao longo do desenvolvimento, aprofundei conceitos fundamentais do ecossistema moderno de Front-End, aplicando teoria diretamente na prática.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧠 Conceitos Praticados
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### ⚛️ Next.js
 
-## Learn More
+- O que é e para que serve
+- Estrutura de pastas
+- Gerenciamento de dependências
+- Criação e reutilização de componentes
+- Aplicação de CSS dentro do Next.js
 
-To learn more about Next.js, take a look at the following resources:
+### 🎨 Tailwind CSS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Introdução à metodologia **utility-first**
+- Personalização de fontes, cores e espaçamentos
+- Estilização de bordas e backgrounds
+- Controle de largura e altura
+- Uso de **Flexbox** e **Grid**
+- Implementação de responsividade
+- Interações com `hover` e `focus`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🎓 Inspiração
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+A inspiração para este projeto veio de uma vídeo aula do canal Codeboost, do William Moreira, a quem deixo meu agradecimento pelo conteúdo de altíssima qualidade.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+> ⚠️ Importante:  
+> O código foi desenvolvido com base no conhecimento absorvido durante o curso, e não apenas reproduzindo o tutorial.
 
-## Feito com 💙 por Gomes Alberto
+---
+
+## 📱 Desafio Extra: Responsividade
+
+A aula original não abordava a adaptação da landing page para dispositivos móveis.  
+Por isso, decidi implementar a responsividade por conta própria.
+
+Apesar de o resultado ainda não estar exatamente como eu gostaria, essa etapa foi essencial para:
+
+- Identificar pontos de melhoria
+- Evoluir no uso da responsividade com Tailwind
+- Comparar abordagens com media queries no CSS tradicional
+
+Essa experiência reforçou o quanto ainda posso crescer nessa área — e isso faz parte da jornada 🚀
+
+---
+
+## 💡 Aprendizados
+
+Com este projeto, pude perceber como:
+
+- O **Next.js** simplifica significativamente o fluxo de trabalho no Front-End
+- A integração com o **Tailwind CSS** traz praticidade, organização e agilidade
+- A prática constante é fundamental para consolidar conhecimento
+
+---
+
+## 📈 Status
+
+Projeto finalizado como exercício prático de estudo.  
+Aberto a melhorias futuras conforme avanço nos estudos.
+
+---
+
+Feito com 💙 por **Gomes Alberto**
